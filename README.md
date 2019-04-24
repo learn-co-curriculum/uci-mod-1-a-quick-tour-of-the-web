@@ -112,12 +112,12 @@ would return the web page.
 The specification on how _clients_ and _servers_ interact is called HTTP
 (HyperText Transfer Protocol). This is why URLs start with `http://`: you're
 telling the browser: "Browser, behave like a client and use the HTTP standard to
-talk to `flatironschool.com` and find a file called `index.html`." The browser
+talk to `ruby-doc.org` and find a file called `index.html`." The browser
 expresses this wish by transmitting a message that looks like:
 
-`GET flatironschool.com /index.html`
+`GET ruby-doc.org /index.html`
 
-Here it asks `flatironschool.com` for an HTML file called `index`. We'll
+Here it asks `ruby-doc.org` for an HTML file called `index`. We'll
 explore this _much_ more in subsequent lessons!
 
 In return, the _server_ returns... HTML that's contained in the `index.html`
