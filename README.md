@@ -20,27 +20,27 @@ terms. While you might have heard "web," and "internet" and "server" in many
 different contexts and places over the years, it's possible that you've never
 built a cohesive model in your mind that connects those concepts.
 
-In this lesson we'll go over the essential steps in how the web
+In this lesson, we'll go over the essential steps in how the web
 works.
 
 ## Define Internet
 
-When people share information, great things can happen. Politics can change.
-Our place in the universe can change. Disease can be conquered. The ability to
-share knowledge is _power_. In the earliest days of computing, engineers looked 
-for ways to have computers share information. Technical limits meant networked 
+When people share information, great things can happen. Politics can change. Our
+place in the universe can change. Diseases can be conquered. The ability to
+share knowledge is _power_. In the earliest days of computing, engineers looked
+for ways for computers to share information. Technical limits meant networked
 computers had to be within the same office.
 
-Eventually, improvements allowed small networks to "inter"-"network" their with
-each other. This discipline was called "internetworking." By the technology and
+Eventually, improvements allowed small networks to "inter"-"network"  with each
+other. This discipline was called "internetworking." By the technology and
 knowledge of "internetworking," these small local networks (or, "local area
 networks" or LANs) became "internetworked" into "Wide Area Networks" or WANs.
 The natural next dream was to "internetwork" WANs into some sort of "larger"
-inter-network, something city-scale, country-scale, or global-scale.
-Technology for "inter-networking" WANs was difficult and slow to develop, but
-eventually produced a backbone internetwork, "**The Internet**work" which
-encompassed all of its constituent WANs and their constituent LANs. Eventually
-in common usage it became called "The Internet."
+inter-network, something city-scale, country-scale, or global scale. Technology
+for "inter-networking" WANs was difficult and slow to develop, but eventually
+produced a backbone internetwork, "**The Internet**work" which encompassed all
+of its constituent WANs and their constituent LANs. Eventually, in common usage,
+it became called "The Internet."
 
 It was upon this "The Internet" that "The Web" was built.
 
@@ -50,11 +50,11 @@ It was upon this "The Internet" that "The Web" was built.
 ## Identify Server Role
 
 All machines on the internet are computers. For ease of discussion, we're going
-to discuss them in two "roles:" client and server. Historically a "server"
+to discuss them in two "roles:" _client_ and _server_. Historically a "server"
 would be a larger, more powerful computer with more memory, bigger hard drives,
 and more computer chips. But today, "server" roles can be handled quite well by
-Arduino devices no bigger than a credit card! Nevertheless, in diagrams and on
-whiteboards they tend to be drawn as large "tower-style" computers.
+Arduino devices that are no bigger than a credit card! Nevertheless, in diagrams
+and on whiteboards they tend to be drawn as large "tower-style" computers.
 
 Regardless of its size, a "server" has the responsibility of arranging the data
 that is presented to the "client." It's because of this "arranging" being
@@ -76,9 +76,9 @@ that's commonly used is "render" as in, "The client _renders_ data provided by
 the server." That is, it only displays the server's data and any change to the
 data has to be done _by the server_, caused by a _request_ from the _client_.
 
-### Client / Server Example
+### Client/Server Example
 
-Let's take a moment to consider client / server in a common scenario: the
+Let's take a moment to consider "client/server" in a common scenario: the
 supermarket.
 
 If you ask the cashier for the price of a bottle of water, they can look it up
@@ -92,26 +92,26 @@ inventory record to show `-1` water bottle.
 
 Now, at the end of the sales day, the management team would like to do some
 analytics about how profitable they were that day. They _could_ go to each
-client computer, determine its revenue for the day and which departments
+"client" computer, determine its revenue for the day and which departments
 contributed to that number, but on a cheap client machine that process would be
-s..l...o.....w &mdash; like trying to play a PS4 game on an iPhone!
+s..l...o.....w.
 
 _However_, if each client computer merely logged its actions to the server by
 sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
-their IT architecture on this model known as "the client / server" model.
+their IT architecture on this model is known as the "client/server" model.
 
 ## Identify Which Role Possesses Browser Display Data
 
-The web was developed with a client / server model. Home PCs were relatively
+The web was developed with a client/server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
 were installed on high-power _servers_. Thus web _clients_ running _browser_
-software were created that would send an _request_ for a web page and the
-server would return the web page.
+software were created that would send a _request_ for a web page and the server
+would return the web page.
 
 The specification on how _clients_ and _servers_ interact is called HTTP
 (HyperText Transfer Protocol). This is why URLs start with `http://`: you're
-telling the browser: "Browser, act like a client and use the HTTP standard to
+telling the browser: "Browser, behave like a client and use the HTTP standard to
 talk to `flatironschool.com` and find a file called `index.html`." The browser
 expresses this wish by transmitting a message that looks like:
 
@@ -153,12 +153,12 @@ And this is the essence of how the web works!
 ## Conclusion
 
 In conclusion, we've talked about the history of the word _internet_ and how it
-connects computers fulfilling _client_ and _server_ roles. We've identified
-that _client_ machines use web browsers to make _requests_ of the _server_,
-according to the HTTP standard, and _server_ return HTML data, stored on their
-hard drives in files _back_ to the requesting _client_. The _client_ machine,
-running browser software, then converts that raw HTML data into a _rendered_
-format which is what you experience as a web page.
+connects computers fulfilling _client_ and _server_ roles. We've identified that
+_client_ machines use web browsers to make _requests_ of the _server_, according
+to the HTTP standard, and _server_ return HTML data, stored on their hard drives
+in files _back_ to the requesting _client_. The _client_ machine, running
+browser software, then converts that raw HTML data into a _rendered_ format
+which is what you experience as a web page.
 
 As a summarizing video, we've provided the following video of our dean, Avi
 Flombaum, giving a short introduction to the web. If you are only
@@ -168,7 +168,7 @@ web programming technology e.g. Ruby, please watch the entire video.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7AS96jRnquI?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
 * [The Web in a Nutshell][TWINS]
-* [Slides][]
+* [Slides][Slides]
 
 ## Resources
 
