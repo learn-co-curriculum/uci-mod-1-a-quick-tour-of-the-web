@@ -1,6 +1,14 @@
-# A Quick Tour Of The Web
+# A Quick Tour of the Web
 
-## Problem Statement
+## Learning Goals
+
+- Define internet
+- Identify server role
+- Identify client role
+- Identify which role possesses browser display data
+- Identify what type of content defines browser display
+
+## Introduction
 
 Welcome to the web, the largest canvas in the world. Roughly 40% of the world's
 population has access to the web. Never before has it been possible to
@@ -15,15 +23,7 @@ built a cohesive model in your mind that connects those concepts.
 In this lesson we'll go over the essential steps in how the web
 works.
 
-## Objectives
-
-1. Define "internet"
-2. Define "server" role
-3. Define "client" role
-4. Explain which role possesses the data that browsers display
-5. Explain what type of content defines what's seen in browsers
-
-## Define "internet"
+## Define Internet
 
 When people share information, great things can happen. Politics can change.
 Our place in the universe can change. Disease can be conquered. The ability to
@@ -47,7 +47,7 @@ It was upon this "The Internet" that "The Web" was built.
 **Note:** For many reasons, style guides no longer capitalize "internet" or
 "web." The global network linking computers globally is "the internet."
 
-## Define "server" role
+## Identify Server Role
 
 All machines on the internet are computers. For ease of discussion, we're going
 to discuss them in two "roles:" client and server. Historically a "server"
@@ -64,7 +64,7 @@ Historically, computers were very expensive and well-appointed servers were
 very, very expensive. As such, when possible, it was more economical for
 servers to do heavy processing and for the clients to request updates.
 
-## Define "client" role
+## Identify Client Role
 
 A computer fulfilling a client role has the responsibility of presenting the
 data that is sent from the server. Historically, these machines could be more
@@ -76,7 +76,7 @@ that's commonly used is "render" as in, "The client _renders_ data provided by
 the server." That is, it only displays the server's data and any change to the
 data has to be done _by the server_, caused by a _request_ from the _client_.
 
-## Client / Server Example
+### Client / Server Example
 
 Let's take a moment to consider client / server in a common scenario: the
 supermarket.
@@ -101,7 +101,7 @@ sending requests, the management could ask that high-power machine to print out
 analytics in an economical and efficient fashion. Many businesses still have
 their IT architecture on this model known as "the client / server" model.
 
-## Explain Which Role Possesses The Data That Browsers Display
+## Identify Which Role Possesses Browser Display Data
 
 The web was developed with a client / server model. Home PCs were relatively
 underpowered (like our checkstands) _clients_ and web content sharing programs
@@ -123,7 +123,7 @@ explore this _much_ more in subsequent lessons!
 In return, the _server_ returns... HTML that's contained in the `index.html`
 file.
 
-## Explain What Type Of Content Defines What's Seen In Browsers
+## Identify What Type of Content Defines Browser Display
 
 Having been told which file on _its_ hard drive to consult, the web _server_
 takes the contents of a file, pushes them across the internet _back_ to the
@@ -180,4 +180,3 @@ web programming technology e.g. Ruby, please watch the entire video.
 
 [TWINS]: https://www.youtube.com/watch?v=7AS96jRnquI
 [Slides]: https://docs.google.com/presentation/d/1m6SPR13MdfF7YRhfx7HtvkOmFnrRyVQOEFgWhI8Bc0I/edit?usp=sharing
-
